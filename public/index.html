@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carlo + Puppeteer Testing</title>
+    <style>
+      body {
+        background: #333;
+        color: aliceblue;
+        font-family: sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      button {
+        width: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <h1>
+        Testing Carlo and Puppeteer from the same Chrome process
+      </h1>
+      <br />
+      <h3>Click to send a log a message to the server</h3>
+      <button onClick="logServer('Sent from the client!')">
+        Log
+      </button>
+    </div>
+</html>
