@@ -4,6 +4,8 @@ This repo is a proof-of-concept implementation of a [Carlo](https://github.com/G
 
 Both Carlo and Puppeteer are used in this example, but either could be run independently depending on a project's needs - the process of locating a Chrome/Chromium executable remains the same.
 
+Requires Node 10+ for `fs` Promises support (can be replaced with something like [fs-extra](https://github.com/jprichardson/node-fs-extra)) and Yarn.
+
 ## Usage
 
 Install dependencies (not including a local copy of Chromium)
