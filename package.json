@@ -1,7 +1,7 @@
 {
   "name": "carlo-puppeteer-example",
   "version": "1.0.0",
-  "description": "A proof-of-concept implementation of a Carlo + Puppeteer web app",
+  "description": "A proof-of-concept implementation of a Carlo + Puppeteer desktop app",
   "author": "Chris Santamaria <chris@santamaria.me>",
   "main": "app.js",
   "license": "MIT",
